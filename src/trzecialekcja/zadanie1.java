@@ -4,11 +4,19 @@ import java.util.Scanner;
 public class zadanie1 {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner.(System.in);
+        Scanner scanner = new Scanner(System.in);
     int liczba;
+    do {
         System.out.println("podaj dodatnią niezerową liczbe calkowitą: ");
         liczba = scanner.nextInt();
+    }while(liczba<=0);
+        int suma = 0;
 
+        for(int i=1; i <=liczba; i++){
+            suma += i;
+
+        }
+        System.out.println(suma);
 
     }
 }
